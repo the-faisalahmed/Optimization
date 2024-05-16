@@ -41,3 +41,9 @@ Hidato is a logic puzzle where players must fill a grid with consecutive numbers
 | 1 |  4 |  6 | 10 |
 
 Spot-It aka Dobble employs prime number theory to ensure each pair of cards has exactly one matching symbol, making it a fast-paced game of pattern recognition.
+
+## 4.  [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens.ipynb)
+
+![](https://github.com/the-faisalahmed/Optimization/blob/main/n_queens_gif.gif)
+
+Given N queens, place all queens on an N×N chessboard in such a way that no two queens threaten each other.
