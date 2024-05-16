@@ -44,6 +44,6 @@ Spot-It aka Dobble employs prime number theory to ensure each pair of cards has 
 
 ## 4.  [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/n_queens_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens_gif.gif)
 
 Given N queens, place all queens on an N×N chessboard in such a way that no two queens threaten each other.
