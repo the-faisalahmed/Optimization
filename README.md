@@ -1,5 +1,7 @@
 # Optimization Projects
-#### Hello! This is a repository of interesting programming projects. Mathematical optimization is a wonderful topic and I'm looking to expand my knowledge and expertise on the subject. My aim is to challenge myself with various types of optimization problems/puzzles and learn something new along the way. 
+Hello! This is a repository of interesting programming projects. I have a BS in Industrial Engineering and in my studies I have grown to appreciate mathematical programming. It's a wonderful topic and I am looking to expand my knowledge and expertise on the subject. My aim is to challenge myself with various types of optimization problems/puzzles and learn something new along the way.
+
+*P.S. I'm still getting used to coding so my code may not be the most efficient!*
 
 ----
 
