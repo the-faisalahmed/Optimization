@@ -1,5 +1,5 @@
 # Optimization Projects
-I've been very interested in optimization and am looking to expand my knowledge and expertise on the subject. My aim is to challenge myself with various types of optimization problems/puzzles and learn something new along the way. 
+#### Hello! This is a repository of interesting programming projects. Mathematical optimization is a wonderful topic and I'm looking to expand my knowledge and expertise on the subject. My aim is to challenge myself with various types of optimization problems/puzzles and learn something new along the way. 
 
 ----
 
