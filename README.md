@@ -47,3 +47,11 @@ Spot-It aka Dobble employs prime number theory to ensure each pair of cards has 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens_gif.gif)
 
 Given N queens, place all queens on an N×N chessboard in such a way that no two queens threaten each other.
+
+## 5. [**Taquin 3x3**](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin_3x3.ipynb)
+
+![https://github.com/the-faisalahmed/Optimization/blob/main/Taquin%203x3.gif]
+
+This one was an exciting one just because I'm new to machine learning! The 3x3 Taquin, commonly known as the 3x3 sliding puzzle or 8-puzzle, is a classic puzzle game consisting of a 3x3 grid with eight numbered tiles and one empty space. The objective is to swap the empty space with the tiles until the tiles are in numerical order (from 1 to 8 from top left row to bottom row). I completed this using Q learning as the reinforcement learning methodology. This was thanks in large part to a bunch of other repositories that I can't name all at once, but a special shoutout to [Neha Desaraju's](https://medium.com/@nehadesaraju) [article](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88) on the matter; definitely used her code as a launching off point and would highly recommend. I also took a fast paced ML course the right before graduating and am leaning on the code I used then as well.
+
+This was originally planned to be the usual 4x4 Taquin, aka the 15 puzzle, however the Q table I had been ready to us was just way too large (over 20 trillion states :exploding_head:) to implement a tabular Q learning method while the 3x3 Taquin was much more feasible (only 362,880 states). I am, howver, aiming to do a deep dive into Deep Q Networks (DQN) to address the large state space issue. Because I'm new to ML, there's bound to be lots of mistakes in the methodology of my code (let alone structure). Immediately, I can imagine an issue regarding the determination of rewards. The reward values were given fairly aribitrarily and but the policies put in place were a little more thought out to encourage the agent to seek order in the grid. Still though, this could probably be the cause of an increase in steps needed to solve the puzzle. 
