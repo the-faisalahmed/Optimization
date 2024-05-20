@@ -5,19 +5,21 @@ Hello! This is a repository of interesting programming projects. I have a BS in 
 
 ----
 
-## 1.  [**Numbrix**](https://github.com/the-faisalahmed/Optimization/blob/main/Numbrix_and_Hidato.ipynb)
+## [**Taquin 3x3**](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin_3x3.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/numbrix_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin%203x3_gif.gif)
 
-Numbrix is a logic-based puzzle where players connect consecutive numbers in a grid, horizontally or vertically, with no diagonals, to form a continuous path.
+This one was an exciting one just because I'm new to machine learning! The 3x3 Taquin, commonly known as the 3x3 sliding puzzle or 8-puzzle, is a classic puzzle game consisting of a 3x3 grid with eight numbered tiles and one empty space. The objective is to swap the empty space with the tiles until the tiles are in numerical order (from 1 to 8 from top left row to bottom row). I completed this using Q learning as the reinforcement learning methodology. This was thanks in large part to a bunch of other repositories that I can't name all at once, but a special shoutout to [Neha Desaraju's](https://medium.com/@nehadesaraju) [article](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88) on the matter; definitely used her code as a launching off point and would highly recommend. I also took a fast paced ML course right before graduating that introduced me to reinforcement learning and I'm leaning on the code I used in this course.
 
-## 2.  [**Hidato**](https://github.com/the-faisalahmed/Optimization/blob/main/Numbrix_and_Hidato.ipynb)
+This was originally planned to be the usual 4x4 Taquin, aka the 15 puzzle, however the Q table I had been ready to us was just way too large (over 20 trillion states :exploding_head:) to implement a tabular Q learning method while the 3x3 Taquin was much more feasible (only 362,880 states). I am, howver, aiming to do a deep dive into Deep Q Networks (DQN) to address the large state space issue. Because I'm new to ML, there's bound to be lots of mistakes in the methodology of my code (let alone structure). Immediately, I can imagine an issue regarding the determination of rewards. The reward values were given fairly aribitrarily and but the policies put in place were a little more thought out to encourage the agent to seek order in the grid. Still though, this could probably be the cause of an increase in steps needed to solve the puzzle. 
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/hidato_gif.gif)
+## [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens.ipynb)
 
-Hidato is a logic puzzle where players must fill a grid with consecutive numbers, starting from a given number and moving horizontally, vertically, or diagonally to adjacent, open cells to form a continuous path.
+![](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens_gif.gif)
 
-## 3.  [**Spot-It aka Dobble**](https://github.com/the-faisalahmed/Optimization/blob/main/Spot_It_Dobble.ipynb)
+Given N queens, place all queens on an N×N chessboard in such a way that no two queens threaten each other.
+
+## [**Spot-It aka Dobble**](https://github.com/the-faisalahmed/Optimization/blob/main/Spot_It_Dobble.ipynb)
 
 <div>
 <img src="https://i0.wp.com/boingboing.net/wp-content/uploads/2021/10/spotit.jpg?fit=1024%2C556&ssl=1" width="500"/>
@@ -42,16 +44,22 @@ Hidato is a logic puzzle where players must fill a grid with consecutive numbers
 
 Spot-It aka Dobble employs prime number theory to ensure each pair of cards has exactly one matching symbol, making it a fast-paced game of pattern recognition.
 
-## 4.  [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens.ipynb)
+## [**Hidato**](https://github.com/the-faisalahmed/Optimization/blob/main/Numbrix_and_Hidato.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/hidato_gif.gif)
 
-Given N queens, place all queens on an N×N chessboard in such a way that no two queens threaten each other.
+Hidato is a logic puzzle where players must fill a grid with consecutive numbers, starting from a given number and moving horizontally, vertically, or diagonally to adjacent, open cells to form a continuous path.
 
-## 5. [**Taquin 3x3**](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin_3x3.ipynb)
+## [**Numbrix**](https://github.com/the-faisalahmed/Optimization/blob/main/Numbrix_and_Hidato.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin%203x3_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/numbrix_gif.gif)
 
-This one was an exciting one just because I'm new to machine learning! The 3x3 Taquin, commonly known as the 3x3 sliding puzzle or 8-puzzle, is a classic puzzle game consisting of a 3x3 grid with eight numbered tiles and one empty space. The objective is to swap the empty space with the tiles until the tiles are in numerical order (from 1 to 8 from top left row to bottom row). I completed this using Q learning as the reinforcement learning methodology. This was thanks in large part to a bunch of other repositories that I can't name all at once, but a special shoutout to [Neha Desaraju's](https://medium.com/@nehadesaraju) [article](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88) on the matter; definitely used her code as a launching off point and would highly recommend. I also took a fast paced ML course right before graduating that introduced me to reinforcement learning and I'm leaning on the code I used in this course.
+Numbrix is a logic-based puzzle where players connect consecutive numbers in a grid, horizontally or vertically, with no diagonals, to form a continuous path.
 
-This was originally planned to be the usual 4x4 Taquin, aka the 15 puzzle, however the Q table I had been ready to us was just way too large (over 20 trillion states :exploding_head:) to implement a tabular Q learning method while the 3x3 Taquin was much more feasible (only 362,880 states). I am, howver, aiming to do a deep dive into Deep Q Networks (DQN) to address the large state space issue. Because I'm new to ML, there's bound to be lots of mistakes in the methodology of my code (let alone structure). Immediately, I can imagine an issue regarding the determination of rewards. The reward values were given fairly aribitrarily and but the policies put in place were a little more thought out to encourage the agent to seek order in the grid. Still though, this could probably be the cause of an increase in steps needed to solve the puzzle. 
+
+
+
+
+
+
+
