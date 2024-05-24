@@ -8,7 +8,7 @@ Hello! This is a repository of interesting programming projects. I have a BS in 
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/Tower%20of%20Hanoi_gif.gif)
 
-The Tower of Hanoi is a classic mathematical puzzle that involves three rods and a number of disks of different sizes that can slide onto any rod. The puzzle starts with $n$ number of disks stacked in ascending order of size on one rod, the largest disk at the bottom and the smallest at the top. The objective is to move the entire stack to another rod, obeying the following rules:
+The Tower of Hanoi is a classic mathematical puzzle that involves three rods and a number of disks of different sizes that can slide onto any rod. The puzzle starts with $n$ number of disks stacked in ascending order of size on one rod, the largest disk at the bottom and the smallest at the top. The objective is to move the entire stack to the last rod, obeying the following rules:
 
 1. Only one disk can be moved at a time: You can only take the top disk from any stack and place it on top of another stack or on an empty rod.
 2. A disk can only be placed on top of a larger disk: You cannot place a larger disk on top of a smaller disk.
