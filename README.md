@@ -4,6 +4,16 @@ Hello! This is a repository of interesting programming projects. I have a BS in 
 *P.S. I'm still getting used to coding so my code may not be the most efficient!*
 
 ----
+## [**Tower of Hanoi**](https://github.com/the-faisalahmed/Optimization/blob/main/Tower_of_Hanoi.ipynb)
+
+![](https://github.com/the-faisalahmed/Optimization/blob/main/Tower%20of%20Hanoi_gif.gif)
+
+The Tower of Hanoi is a classic mathematical puzzle that involves three rods and a number of disks of different sizes that can slide onto any rod. The puzzle starts with $n$ number of disks stacked in ascending order of size on one rod, the largest disk at the bottom and the smallest at the top. The objective is to move the entire stack to another rod, obeying the following rules:
+
+1. Only one disk can be moved at a time: You can only take the top disk from any stack and place it on top of another stack or on an empty rod.
+2. A disk can only be placed on top of a larger disk: You cannot place a larger disk on top of a smaller disk.
+
+I completed this puzzle using reinforcement learning. With 3 rods (A, B and C), there were a total of 27 possible states ($3^n$) and 6 possible actions (A to B, A to C, B to A, B to C, C to A, and C to B).
 
 ## [**Taquin 3x3**](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin_3x3.ipynb)
 
@@ -11,7 +21,7 @@ Hello! This is a repository of interesting programming projects. I have a BS in 
 
 This one was an exciting one just because I'm new to machine learning! The 3x3 Taquin, commonly known as the 3x3 sliding puzzle or 8-puzzle, is a classic puzzle game consisting of a 3x3 grid with eight numbered tiles and one empty space. The objective is to swap the empty space with the tiles until the tiles are in numerical order (from 1 to 8 from top left row to bottom row). I completed this using Q learning as the reinforcement learning methodology. This was thanks in large part to a bunch of other repositories that I can't name all at once, but a special shoutout to [Neha Desaraju's](https://medium.com/@nehadesaraju) [article](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88) on the matter; definitely used her code as a launching off point and would highly recommend. I also took a fast paced ML course right before graduating that introduced me to reinforcement learning and I'm leaning on the code I used in this course.
 
-This was originally planned to be the usual 4x4 Taquin, aka the 15 puzzle, however the Q table I had been ready to us was just way too large (over 20 trillion states :exploding_head:) to implement a tabular Q learning method while the 3x3 Taquin was much more feasible (only 362,880 states). I am, however, aiming to do a deep dive into Deep Q Networks (DQN) to address the large state space issue some time in the near future. Because I'm new to ML, there's bound to be lots of mistakes in the methodology of my code (let alone structure). Immediately, I can imagine an issue regarding the determination of rewards. The reward values were given fairly aribitrarily and but the policies put in place were a little more thought out to encourage the agent to seek order in the grid. Still though, this could probably be the cause of an increase in steps needed to solve the puzzle. 
+This was originally planned to be the usual 4x4 Taquin, aka the 15 puzzle, however the Q table I had been ready to use was just way too large (over 20 trillion states :exploding_head:) to implement a tabular Q learning method while the 3x3 Taquin was much more feasible (only 362,880 states). I am, however, aiming to do a deep dive into Deep Q Networks (DQN) to address the large state space issue some time in the near future. Because I'm new to ML, there's bound to be lots of mistakes in the methodology of my code (let alone structure). Immediately, I can imagine an issue regarding the determination of rewards. The reward values were given fairly aribitrarily and but the policies put in place were a little more thought out to encourage the agent to seek order in the grid. Still though, this could probably be the cause of an increase in steps needed to solve the puzzle. 
 
 ## [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens.ipynb)
 
