@@ -4,6 +4,18 @@ Hello! This is a repository of interesting programming projects. I have a BS in 
 *P.S. I'm still getting used to coding so my code may not be the most efficient!*
 
 ----
+## [**Slant Puzzle**](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle.ipynb)
+
+![](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle_gif.gif)
+
+Slant (also known as Gokigen Naname) is a logic puzzle with simple rules and challenging solutions.
+
+You have to place a diagonal line in EVERY cell according to the rules:
+- The numbers show how many diagonal lines meet at that point.
+- The lines should NOT form a loop.
+
+Though I haven't been able to find a solution for the ***no loop*** portion of the puzzle, I still think this was a fun little puzzle to partially solve. I'll be back soon enough with an actual solution!
+
 ## [**Tower of Hanoi**](https://github.com/the-faisalahmed/Optimization/blob/main/Tower_of_Hanoi.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/Tower%20of%20Hanoi_gif.gif)
