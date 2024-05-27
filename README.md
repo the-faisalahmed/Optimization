@@ -12,7 +12,7 @@ Light Up is played on a rectangular grid. The grid has both black cells and whit
 
 Some of the black cells have numbers in them. A number in a black cell indicates how many light bulbs share an edge with that cell.
 
-In solving this puzzle, I was getting solutions that appeared optimal but wouldn't fully cover all of the cells. Looking further into the logic, I realized allowing the rows and columns to sum to 1 or less than one was the issue. Simply including an objective function that maximized the total number of light bulbs used gave me the optimal solution.
+In solving this puzzle, I was getting solutions that appeared optimal but wouldn't fully cover all of the cells. Looking further into the logic, I realized allowing the rows and columns to sum to less than or equal to 1 was the issue. Simply including an objective function that maximized the total number of light bulbs used gave me the optimal solution.
 
 ## [**Slant Puzzle**](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle.ipynb)
 
