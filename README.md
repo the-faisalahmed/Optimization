@@ -4,6 +4,16 @@ Hello! This is a repository of interesting programming projects. I have a BS in 
 *P.S. I'm still getting used to coding so my code may not be the most efficient!*
 
 ----
+## [**Light Up (Akari)**](https://github.com/the-faisalahmed/Optimization/blob/main/Light_Up_Akari.ipynb)
+
+![](https://github.com/the-faisalahmed/Optimization/blob/main/Light%20Up%20(Akari)_gif.gif)
+
+Light Up is played on a rectangular grid. The grid has both black cells and white cells in it. The objective is to place light bulbs on the grid so that every white square is lit. A cell is illuminated by a light bulb if they're in the same row or column, and if there are no black cells between them. Also, no light bulb may illuminate another light bulb.
+
+Some of the black cells have numbers in them. A number in a black cell indicates how many light bulbs share an edge with that cell.
+
+In solving this puzzle, I was getting solutions that appeared optimal but wouldn't fully cover all of the cells. Looking further into the logic, I realized allowing the rows and columns to sum to 1 or less than one was the issue. Simply including an objective function that maximized the total number of light bulbs used gave me the optimal solution.
+
 ## [**Slant Puzzle**](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle_gif.gif)
