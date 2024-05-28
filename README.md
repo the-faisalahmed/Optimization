@@ -86,6 +86,13 @@ Numbrix is a logic-based puzzle where players connect consecutive numbers in a g
 ## **Machine Learning**
 ----
 ----
+### [**Lights Out!**](https://github.com/the-faisalahmed/Optimization/blob/main/Lights_Out.ipynb)
+
+![](https://github.com/the-faisalahmed/Optimization/blob/main/Lights_Out_gif.gif)
+
+Lights Out is a logic puzzle game where the objective is to find the series of lights to switch in order to turn off all of the lights on the grid. The game features a grid of buttons, each of which toggles the state (on or off) of the light it is on and the lights immediately adjacent to it (above, below, left, and right).
+
+I used a simple Q-learning model to complete this puzzle. As the grid size ($n$) increases, a tabular Q table becomes costly since the state space covers $2^n$ states. In this scenario, a DQN would be best to solve the puzzle.
 
 ### [**Tower of Hanoi**](https://github.com/the-faisalahmed/Optimization/blob/main/Tower_of_Hanoi.ipynb)
 
