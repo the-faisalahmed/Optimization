@@ -15,6 +15,12 @@ I've also been working on some machine learning projects, which can be found tow
 ## **Mathematical Modelling**
 ----
 ----
+### [**Queens via LinkedIn**](https://github.com/the-faisalahmed/Optimization/blob/main/Queens_via_LinkedIn.ipynb)
+
+![](https://github.com/the-faisalahmed/Optimization/blob/main/Queens%20via%20LinkedIn.gif)
+
+The goal is to have exactly one queen in each row, column, and color region.
+Two queens cannot touch each other, not even diagonally.
 
 ### [**Light Up (Akari)**](https://github.com/the-faisalahmed/Optimization/blob/main/Light_Up_Akari.ipynb)
 
