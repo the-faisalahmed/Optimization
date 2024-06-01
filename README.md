@@ -34,7 +34,7 @@ In solving this puzzle, I was getting solutions that appeared optimal but wouldn
 
 ### [**Slant Puzzle**](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/Slant%20Puzzle.gif)
 
 Slant (also known as Gokigen Naname) is a logic puzzle with simple rules and challenging solutions.
 
@@ -42,7 +42,9 @@ You have to place a diagonal line in EVERY cell according to the rules:
 - The numbers show how many diagonal lines meet at that point.
 - The lines should NOT form a loop.
 
-Though I haven't been able to find a solution for the ***no loop*** portion of the puzzle, I still think this was a fun little puzzle to partially solve. I'll be back soon enough with an actual solution!
+May 20-something 2024: Though I haven't been able to find a solution for the ***no loop*** portion of the puzzle, I still think this was a fun little puzzle to partially solve. I'll be back soon enough with an actual solution!
+
+June 2nd 2024: I got a solution! My thought at first was to try and maximize the objective value which was the total sum of each of the points on the grid (which did seem to work mathematically) but for some reason, the solvers I was using (CBC and Bonmin) were just not reaching the optimal value and still causing the loops. I instead switched to maximizing the total squares with 1's (right slants) and that solved the no loops portion. I do wonder if this model would produce feasible boards under *any* Slant puzzle, or if minimizing the objective function in some scenarios would be better.
 
 ### [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens.ipynb)
 
