@@ -6,7 +6,7 @@ Hello! This is a repository of interesting programming projects. I have a BS in 
 
 All of my mathematical modelling projects were completed in Python using [Pyomo](https://www.pyomo.org/) and Google's [OR-Tools](https://developers.google.com/optimization), both open source software capable of solving optimization models. I've also some experience optimizing with other modelling software such as [GAMS](https://www.gams.com/) and [AMPL](https://ampl.com/).
 
-I've also been working on some machine learning projects, which can be found towards the bottom of this file. These are fairly new concepts to me thus far but still super interesting!
+Included in this repository are some machine learning projects, some of which can be found towards the bottom of this file. These are fairly new concepts to me thus far but still super interesting!
 
 *P.S. I'm still getting used to coding so my code may not be the most efficient!*
 
