@@ -4,9 +4,9 @@
 
 Hello! This is a repository of interesting programming projects. I have a BS in Industrial Engineering and in my studies I have grown to appreciate mathematical modelling. It's a wonderful topic and I am looking to expand my knowledge and expertise on the subject. My aim is to challenge myself with various types of optimization problems/puzzles and learn something new along the way.
 
-Nearly all of my mathematical modelling projects were completed using [Pyomo](https://www.pyomo.org/), a python package capable of modelling and solving linear, nonlinear, integer and a variety more optimization problems. I've some experience with other modelling software such as [GAMS](https://www.gams.com/) and [AMPL](https://ampl.com/), however I've found Pyomo far simpler to implement considering it works within Python environment. Plus, it doesn't hurt that Pyomo supports a wide variety of free, open-source solvers built-in including CPLEX, CBC, GLPK and IPOPT.
+All of my mathematical modelling projects were completed in Python using [Pyomo](https://www.pyomo.org/) and Google's [OR-Tools](https://developers.google.com/optimization), both open source software capable of solving optimization models. I've also some experience optimizing with other modelling software such as [GAMS](https://www.gams.com/) and [AMPL](https://ampl.com/).
 
-I've also been working on some machine learning projects, which can be found towards the bottom of this file. These are fairly new concepts to me thus far but still super exciting!
+Included in this repository are some machine learning projects, some of which can be found towards the bottom of this file. These are fairly new concepts to me thus far but still super interesting!
 
 *P.S. I'm still getting used to coding so my code may not be the most efficient!*
 
