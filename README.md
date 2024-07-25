@@ -17,14 +17,14 @@ Included in this repository are some machine learning projects, some of which ca
 ----
 ### [**Queens via LinkedIn**](https://github.com/the-faisalahmed/Optimization/blob/main/Queens_via_LinkedIn.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/Queens%20via%20LinkedIn.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Queens%20via%20LinkedIn.gif)
 
 The goal is to have exactly one queen in each row, column, and color region.
 Two queens cannot touch each other, not even diagonally.
 
 ### [**Light Up (Akari)**](https://github.com/the-faisalahmed/Optimization/blob/main/Light_Up_Akari.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/Light%20Up%20(Akari)_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Light%20Up%20(Akari)_gif.gif)
 
 Light Up is played on a rectangular grid. The grid has both black cells and white cells in it. The objective is to place light bulbs on the grid so that every white square is lit. A cell is illuminated by a light bulb if they're in the same row or column, and if there are no black cells between them. Also, no light bulb may illuminate another light bulb.
 
@@ -34,7 +34,7 @@ In solving this puzzle, I was getting solutions that appeared optimal but wouldn
 
 ### [**Slant Puzzle**](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/Slant%20Puzzle.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Slant%20Puzzle.gif)
 
 Slant (also known as Gokigen Naname) is a logic puzzle with simple rules and challenging solutions.
 
@@ -48,7 +48,7 @@ June 2nd 2024: I got a solution! My thought at first was to try and maximize the
 
 ### [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/N_Queens_gif.gif)
 
 Given N queens, place all queens on an N×N chessboard in such a way that no two queens threaten each other.
 
@@ -79,13 +79,13 @@ Spot-It aka Dobble employs prime number theory to ensure each pair of cards has 
 
 ### [**Hidato**](https://github.com/the-faisalahmed/Optimization/blob/main/Numbrix_and_Hidato.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/hidato_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/hidato_gif.gif)
 
 Hidato is a logic puzzle where players must fill a grid with consecutive numbers, starting from a given number and moving horizontally, vertically, or diagonally to adjacent, open cells to form a continuous path.
 
 ### [**Numbrix**](https://github.com/the-faisalahmed/Optimization/blob/main/Numbrix_and_Hidato.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/numbrix_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/numbrix_gif.gif)
 
 Numbrix is a logic-based puzzle where players connect consecutive numbers in a grid, horizontally or vertically, with no diagonals, to form a continuous path.
 
@@ -96,7 +96,7 @@ Numbrix is a logic-based puzzle where players connect consecutive numbers in a g
 ----
 ### [**Lights Out!**](https://github.com/the-faisalahmed/Optimization/blob/main/Lights_Out.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/Lights_Out_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Lights_Out_gif.gif)
 
 Lights Out is a logic puzzle game where the objective is to find the series of lights to switch in order to turn off all of the lights on the grid. The game features a grid of buttons, each of which toggles the state (on or off) of the light it is on and the lights immediately adjacent to it (above, below, left, and right). Only the combination of the lights to switch matters, as any permutation of this combination will result in the same final state.
 
@@ -104,7 +104,7 @@ I used a simple Q-learning model to complete this puzzle. As the grid size ($n \
 
 ### [**Tower of Hanoi**](https://github.com/the-faisalahmed/Optimization/blob/main/Tower_of_Hanoi.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/Tower%20of%20Hanoi_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Tower%20of%20Hanoi_gif.gif)
 
 The Tower of Hanoi is a classic mathematical puzzle that involves three rods and a number of disks of different sizes that can slide onto any rod. The puzzle starts with $n$ number of disks stacked in ascending order of size on one rod, the largest disk at the bottom and the smallest at the top. The objective is to move the entire stack to the last rod, obeying the following rules:
 
@@ -115,7 +115,7 @@ I completed this puzzle using reinforcement learning. With 3 rods (A, B and C), 
 
 ### [**Taquin 3x3**](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin_3x3.ipynb)
 
-![](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin3x3_gif.gif)
+![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Taquin3x3_gif.gif)
 
 This one was an exciting one just because I'm new to machine learning! The 3x3 Taquin, commonly known as the 3x3 sliding puzzle or 8-puzzle, is a classic puzzle game consisting of a 3x3 grid with eight numbered tiles and one empty space. The objective is to swap the empty space with the tiles until the tiles are in numerical order (from 1 to 8 from top left row to bottom row). I completed this using Q learning as the reinforcement learning methodology. This was thanks in large part to a bunch of other repositories that I can't name all at once, but a special shoutout to [Neha Desaraju's](https://medium.com/@nehadesaraju) [article](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88) on the matter; definitely used her code as a launching off point and would highly recommend. I also took a fast paced ML course right before graduating that introduced me to reinforcement learning and I'm leaning on the code I used in this course.
 
