@@ -1,6 +1,8 @@
 # Optimization Projects
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsbAFFd-ylEgVCsjJNoNTYdJZA0AUS92NINKKnYKG32iG5oZfwWLcnFjY&s=10)
+<p align="center">
+  <img src="https://github.com/the-faisalahmed/Optimization/blob/main/media/logo.png" />
+</p>
 
 Hello! This is a repository of interesting programming projects. I have a BS in Industrial Engineering and in my studies I have grown to appreciate mathematical modelling. It's a wonderful topic and I am looking to expand my knowledge and expertise on the subject. My aim is to challenge myself with various types of optimization problems/puzzles and learn something new along the way.
 
