@@ -15,14 +15,14 @@ Included in this repository are some machine learning projects, some of which ca
 ## **Mathematical Modelling**
 ----
 ----
-### [**Queens via LinkedIn**](https://github.com/the-faisalahmed/Optimization/blob/main/Queens_via_LinkedIn.ipynb)
+### [**Queens via LinkedIn**](https://github.com/the-faisalahmed/Optimization/blob/main/grid%20puzzles/Queens_via_LinkedIn.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Queens%20via%20LinkedIn.gif)
 
 The goal is to have exactly one queen in each row, column, and color region.
 Two queens cannot touch each other, not even diagonally.
 
-### [**Light Up (Akari)**](https://github.com/the-faisalahmed/Optimization/blob/main/Light_Up_Akari.ipynb)
+### [**Light Up (Akari)**](https://github.com/the-faisalahmed/Optimization/blob/main/grid%20puzzles/Light_Up_Akari.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Light%20Up%20(Akari)_gif.gif)
 
@@ -32,7 +32,7 @@ Some of the black cells have numbers in them. A number in a black cell indicates
 
 In solving this puzzle, I was getting solutions that appeared optimal but wouldn't fully cover all of the cells. Looking further into the logic, I realized allowing the rows and columns to sum to less than or equal to 1 was the issue. Simply including an objective function that maximized the total number of light bulbs used gave me the optimal solution.
 
-### [**Slant Puzzle**](https://github.com/the-faisalahmed/Optimization/blob/main/Slant_Puzzle.ipynb)
+### [**Slant Puzzle**](https://github.com/the-faisalahmed/Optimization/blob/main/grid%20puzzles/Slant_Puzzle.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Slant%20Puzzle.gif)
 
@@ -46,13 +46,13 @@ May 20-something 2024: Though I haven't been able to find a solution for the ***
 
 June 2nd 2024: I got a solution! My thought at first was to try and maximize the objective value which was the total sum of each of the points on the grid (which did seem to work mathematically) but for some reason, the solvers I was using (CBC and Bonmin) were just not reaching the optimal value and still causing the loops. I instead switched to maximizing the total squares with 1's (right slants) and that solved the no loops portion. I do wonder if this model would produce feasible boards under *any* Slant puzzle, or if minimizing the objective function in some scenarios would be better.
 
-### [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/N_Queens.ipynb)
+### [**N-Queens**](https://github.com/the-faisalahmed/Optimization/blob/main/grid%20puzzles/N_Queens.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/N_Queens_gif.gif)
 
 Given N queens, place all queens on an N×N chessboard in such a way that no two queens threaten each other.
 
-### [**Spot-It aka Dobble**](https://github.com/the-faisalahmed/Optimization/blob/main/Spot_It_Dobble.ipynb)
+### [**Spot-It aka Dobble**](https://github.com/the-faisalahmed/Optimization/blob/main/IBM%20Ponder%20This%20problems/Spot_It_Dobble.ipynb)
 
 <div>
 <img src="https://i0.wp.com/boingboing.net/wp-content/uploads/2021/10/spotit.jpg?fit=1024%2C556&ssl=1" width="500"/>
@@ -77,13 +77,13 @@ Given N queens, place all queens on an N×N chessboard in such a way that no two
 
 Spot-It aka Dobble employs prime number theory to ensure each pair of cards has exactly one matching symbol, making it a fast-paced game of pattern recognition.
 
-### [**Hidato**](https://github.com/the-faisalahmed/Optimization/blob/main/Numbrix_and_Hidato.ipynb)
+### [**Hidato**](https://github.com/the-faisalahmed/Optimization/blob/main/grid%20puzzles/Numbrix_and_Hidato.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/hidato_gif.gif)
 
 Hidato is a logic puzzle where players must fill a grid with consecutive numbers, starting from a given number and moving horizontally, vertically, or diagonally to adjacent, open cells to form a continuous path.
 
-### [**Numbrix**](https://github.com/the-faisalahmed/Optimization/blob/main/Numbrix_and_Hidato.ipynb)
+### [**Numbrix**](https://github.com/the-faisalahmed/Optimization/blob/main/grid%20puzzles/Numbrix_and_Hidato.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/numbrix_gif.gif)
 
@@ -94,7 +94,7 @@ Numbrix is a logic-based puzzle where players connect consecutive numbers in a g
 ## **Machine Learning**
 ----
 ----
-### [**Lights Out!**](https://github.com/the-faisalahmed/Optimization/blob/main/Lights_Out.ipynb)
+### [**Lights Out!**](https://github.com/the-faisalahmed/Optimization/blob/main/maching%20learnin%20gpuzzles/Lights_Out.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Lights_Out_gif.gif)
 
@@ -102,7 +102,7 @@ Lights Out is a logic puzzle game where the objective is to find the series of l
 
 I used a simple Q-learning model to complete this puzzle. As the grid size ($n \times n$) increases, a tabular Q table becomes costly since the state space covers $2^{n^2}$ states. In this scenario, a DQN would be best to solve the puzzle.
 
-### [**Tower of Hanoi**](https://github.com/the-faisalahmed/Optimization/blob/main/Tower_of_Hanoi.ipynb)
+### [**Tower of Hanoi**](https://github.com/the-faisalahmed/Optimization/blob/main/maching%20learnin%20gpuzzles/Tower_of_Hanoi.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Tower%20of%20Hanoi_gif.gif)
 
@@ -113,7 +113,7 @@ The Tower of Hanoi is a classic mathematical puzzle that involves three rods and
 
 I completed this puzzle using reinforcement learning. With 3 rods (A, B and C), there were a total of 27 possible states ($3^n$) and 6 possible actions (A to B, A to C, B to A, B to C, C to A, and C to B).
 
-### [**Taquin 3x3**](https://github.com/the-faisalahmed/Optimization/blob/main/Taquin_3x3.ipynb)
+### [**Taquin 3x3**](https://github.com/the-faisalahmed/Optimization/blob/main/maching%20learnin%20gpuzzles/Taquin_3x3.ipynb)
 
 ![](https://github.com/the-faisalahmed/Optimization/blob/main/media/Taquin3x3_gif.gif)
 
