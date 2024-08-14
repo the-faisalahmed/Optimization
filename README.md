@@ -4,9 +4,9 @@
   <img src="https://github.com/the-faisalahmed/Optimization/blob/main/media/logo.jpg" />
 </p>
 
-Hello! This is a repository of interesting programming projects. I have a BS in Industrial Engineering and in my studies I have grown to appreciate mathematical modelling. It's a wonderful topic and I am looking to expand my knowledge and expertise on the subject. My aim is to challenge myself with various types of optimization problems/puzzles and learn something new along the way.
+Hello! I have a BS in Industrial Engineering and in my studies I have grown to appreciate mathematical modelling. It's a wonderful topic and I am looking to expand my knowledge and expertise on the subject. My aim is to challenge myself with various types of optimization problems/puzzles and learn something new along the way.
 
-All of my mathematical modelling projects were completed in Python using [Pyomo](https://www.pyomo.org/) and Google's [OR-Tools](https://developers.google.com/optimization), both open source software capable of solving optimization models. I've also some experience optimizing with other modelling software such as [GAMS](https://www.gams.com/) and [AMPL](https://ampl.com/).
+This is a repository of interesting programming projects I've come across through sites like Stack Exchange, IBM's PonderThis challenges, Wiki puzzles and more. All of my mathematical modelling projects were completed in Python using [Pyomo](https://www.pyomo.org/) and Google's [OR-Tools](https://developers.google.com/optimization), both open source software capable of solving optimization models. I've also some experience optimizing with other modelling software such as [GAMS](https://www.gams.com/) and [AMPL](https://ampl.com/).
 
 Included in this repository are some machine learning projects, some of which can be found towards the bottom of this file. These are fairly new concepts to me thus far but still super interesting!
 
